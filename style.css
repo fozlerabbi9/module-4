@@ -166,3 +166,15 @@ body {
 }
 
 /* =========================  End Third ( 3rd )  Section    ============================= */
+
+
+footer{
+    text-align: center;
+}
+footer h3{
+    padding-bottom: 10px;
+    color: red;
+    text-shadow: 2px 2px 5px rgb(71, 73, 67);
+    font-style: italic;
+}
+

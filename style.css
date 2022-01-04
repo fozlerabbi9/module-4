@@ -133,10 +133,10 @@ body {
     border-radius: 5px;
 }
 .div-one img{
-    height: 300px;
-    margin-top: 50px;
+    height: 330px;
+    margin-top: 20px;
     border-radius: 0 0 0 3px;
-
+    width: 250px;
 }
 
 .div-two{
@@ -148,9 +148,10 @@ body {
     border-radius: 5px;
 }
 .div-two img{
-    height: 300px;
-    margin-top: 50px;
+    height: 330px;
+    margin-top: 20px;
     border-radius: 0 0 0 3px;
+    width: 250px;
 }
 
 .section-three .child-div{

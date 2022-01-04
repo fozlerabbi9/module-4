@@ -1,20 +1,23 @@
 body {
     font-family: 'Playfair Display', serif;
-    background-color: rgba(96, 175, 228, 0.2);
     margin: 0;
     padding: 0;
 }
+.wrapper{
+    width: 98%;
+    margin: 0 auto;
+    background-color: rgba(96, 175, 228, 0.2);
+}
 
+/* =========================  Start First Section    ============================= */
 .main-div {
     display: flex;
-    margin-top: 80px;
+    padding-top: 50px;
 
 }
 
 .info {
     width: 50%;
-    /* margin-top: 60px; */
-
 }
 
 .center-div {
@@ -24,6 +27,11 @@ body {
 .main-div .info .center-div h1 span {
     color: red;
     font-style: italic;
+}
+.main-div .info .center-div p::first-letter{
+    font-size: 34px;
+    font-style: italic;
+    color: red;
 }
 
 .main-div .info .center-div p {
@@ -42,6 +50,7 @@ body {
     border-radius: 30px;
     box-shadow: 3px 3px 8px rgb(177, 134, 206);
     text-decoration: none;
+    font-style: italic;
 }
 
 .img-div {
@@ -50,10 +59,110 @@ body {
 
 .img-div img {
     background-color: rgb(235, 95, 211);
-    /* background-image: linear-gradient(red,gree,blue); */
     width: 450px;
     height: 450px;
     border-radius: 50%;
     margin-left: 100px;
     box-shadow: 10px 5px 20px rgb(198, 161, 223);
 }
+
+/* =========================  End First Section    ================================ */
+
+
+
+
+/* =========================  Start Second Section    ============================= */
+.main-div-section2{
+    margin-top: 50px;
+    padding: 50px 0;
+    background-color: rgb(190, 241, 241);
+    display: flex;
+}
+
+.main-div-section2 .center-div{
+    padding-right: 50px;
+    text-align: justify;
+    margin-left: -10px;
+    margin-right: 60px;
+} 
+.main-div-section2 .center-div h1{
+    color: red;
+}
+.main-div-section2 .center-div span{
+    color: red;
+    font-size: 35px;
+}
+.main-div-section2 .center-div p::first-letter{
+    font-size: 34px;
+    font-style: italic;
+    color: red;
+}
+.main-div-section2 .center-div a{
+    display: flex;
+    text-decoration: none;
+    background-color: rgb(209, 160, 241);
+    width: 110px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    border-radius: 30px;
+    font-weight: 500;
+    font-style: italic;
+    box-shadow: 1px 3px 20px rgb(88, 86, 86);
+}
+/* =========================  End Second Section    ============================= */
+
+
+
+/* =========================  Start Third ( 3rd )  Section    ============================= */
+.section-three{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding-bottom: 100px;
+    margin: 80px  auto 0px;
+}
+.div-one{
+    display: flex;
+    width: 600px;
+    height: 350px;
+    border: 2px solid rgb(228, 202, 245) ;
+    box-shadow: 10px 10px 15px rgb(209, 160, 241);
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.div-one img{
+    height: 300px;
+    margin-top: 50px;
+    border-radius: 0 0 0 3px;
+
+}
+
+.div-two{
+    display: flex;
+    width: 600px;
+    border: 2px solid rgb(228, 202, 245) ;
+    box-shadow: 10px 10px 15px rgb(209, 160, 241);
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.div-two img{
+    height: 300px;
+    margin-top: 50px;
+    border-radius: 0 0 0 3px;
+}
+
+.section-three .child-div{
+    background-color: rgb(190, 241, 241);
+    padding: 80px 15px 0 30px;
+    text-align: justify;
+}
+.section-three .child-div h2{
+    color: red;
+}
+.section-three .child-div p::first-letter{
+    font-size: 1.5rem;
+}
+
+/* =========================  End Third ( 3rd )  Section    ============================= */
